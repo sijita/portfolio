@@ -1,0 +1,104 @@
+{
+  "Index": {
+    "header": {
+      "developer": "Desarrollador"
+    },
+    "navbar": {
+      "aboutMe": "Sobre mí",
+      "projects": "Proyectos",
+      "technologies": "Tecnologías",
+      "contact": "Contacto",
+      "experience": "Experiencia"
+    },
+    "aboutMe": {
+      "description": "Ingeniero de Software con más de 1 año de experiencia enfocado en el desarrollo web.<space></space><space></space> Cuento con las habilidades y conocimientos sólidos para crear aplicaciones web eficientes y escalables, utilizando tecnologías modernas para ofrecer soluciones robustas y de alto rendimiento."
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "downloadBtn": {
+      "title": "Descargar HV"
+    }
+  },
+  "Experience": {
+    "title": "Experiencia",
+    "employeeJobsList": {
+      "title": "Empleado",
+      "jobs": {
+        "trespimedios": {
+          "company": "Tres Pi Medios",
+          "job": "Desarrollador front-end web y móvil",
+          "year": "Sept 2022 - Ene 2023"
+        },
+        "trespimedios2": {
+          "company": "Tres Pi Medios",
+          "job": "Desarrollador front-end web",
+          "year": "Oct 2023 - Nov 2023"
+        },
+        "hospital": {
+          "company": "Hospital General de Medellín",
+          "job": "Ingeniero de Software",
+          "year": "Dic 2023 - Actualidad"
+        },
+        "bemaster": {
+          "company": "Bemaster",
+          "job": "Desarrollador front-end web",
+          "year": "Abr 2024 - Jun 2024"
+        }
+      }
+    },
+    "freelanceJobsList": {
+      "title": "Independiente",
+      "jobs": {
+        "servidrones": {
+          "company": "Servidrones",
+          "job": "Página web Servidrones",
+          "year": "2022"
+        },
+        "hotelambeyma": {
+          "company": "Hotel Ambeyma",
+          "job": "Página web Hotel Ambeyma",
+          "year": "2021"
+        },
+        "personal": {
+          "company": "Sijita",
+          "job": "Proyectos personales",
+          "year": "2019 - Actualidad"
+        }
+      }
+    }
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "viewBtn": "Ver proyecto",
+    "projects": {
+      "movieverse": {
+        "description": "Movie-verse página web con información de películas y series."
+      },
+      "ecommerce": {
+        "description": "Página web de comercio electrónico, con sesión de usuarios, carrito de compras, productos favoritos, ordenes, administración de productos, administración de ordenes y demás."
+      },
+      "footballquiz": {
+        "description": "Página web de preguntas y respuestas sobre fútbol con puntuación."
+      },
+      "notys": {
+        "description": "Página web de notas con inicio de sesión, creación de notas, edición de notas y eliminación de notas."
+      },
+      "pokedex": {
+        "description": "Página web con información de pokemones ."
+      },
+      "rickandmorty": {
+        "description": "App móvil con información de personajes y ubicaciones de Rick and Morty."
+      },
+      "servidrones": {
+        "description": "Lading page de la empresa Servidrones."
+      },
+      "ambeyma": {
+        "description": "Lading page de la empresa Ambeyma."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Enviar mensaje"
+  }
+}

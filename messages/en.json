@@ -1,0 +1,105 @@
+{
+  "Index": {
+    "header": {
+      "developer": "Developer"
+    },
+    "navbar": {
+      "aboutMe": "About me",
+      "projects": "Projects",
+      "technologies": "Technologies",
+      "contact": "Contact",
+      "experience": "Experience"
+    },
+    "aboutMe": {
+      "title": "About me",
+      "description": "Software Engineer with over 1 year of experience focused on web development.<space></space><space></space> I have solid skills and knowledge to create efficient and scalable web applications, using modern technologies to offer robust and high-performance solutions."
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "downloadBtn": {
+      "title": "Download CV"
+    }
+  },
+  "Experience": {
+    "title": "Experience",
+    "employeeJobsList": {
+      "title": "Employee",
+      "jobs": {
+        "trespimedios": {
+          "company": "Tres Pi Medios",
+          "job": "Web and mobile front-end developer",
+          "year": "Sept 2022 - Jan 2023"
+        },
+        "trespimedios2": {
+          "company": "Tres Pi Medios",
+          "job": "Web front-end developer",
+          "year": "Oct 2023 - Nov 2023"
+        },
+        "hospital": {
+          "company": "Hospital General de Medellín",
+          "job": "Software Engineer",
+          "year": "Dec 2023 - Present"
+        },
+        "bemaster": {
+          "company": "Bemaster",
+          "job": "Web front-end developer",
+          "year": "Abr 2024 - Jun 2024"
+        }
+      }
+    },
+    "freelanceJobsList": {
+      "title": "Freelance",
+      "jobs": {
+        "servidrones": {
+          "company": "Servidrones",
+          "job": "Servidrones web page",
+          "year": "2022"
+        },
+        "hotelambeyma": {
+          "company": "Hotel Ambeyma",
+          "job": "Hotel Ambeyma web page",
+          "year": "2021"
+        },
+        "personal": {
+          "company": "Sijita",
+          "job": "Personal projects",
+          "year": "2019 - Present"
+        }
+      }
+    }
+  },
+  "Projects": {
+    "title": "Projects",
+    "viewBtn": "View project",
+    "projects": {
+      "movieverse": {
+        "description": "Movie-verse web page with movies and series information."
+      },
+      "ecommerce": {
+        "description": "Ecommerce website, with user session, shopping cart, favorite products, orders, product management, orders administration and others."
+      },
+      "footballquiz": {
+        "description": "Website Questions and Answers about soccer with score."
+      },
+      "notys": {
+        "description": "Website of notes with login, creation of notes, editing of notes and removal of notes."
+      },
+      "pokedex": {
+        "description": "Website with pokemon information."
+      },
+      "rickandmorty": {
+        "description": "Mobile app with information from characters and locations by Rick and Morty."
+      },
+      "servidrones": {
+        "description": "Servidrones company lading page."
+      },
+      "ambeyma": {
+        "description": "Ambeyma company landing page."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Send me a message"
+  }
+}
