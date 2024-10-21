@@ -9,6 +9,7 @@ import { getTranslations } from 'next-intl/server';
 
 export default async function Home() {
   const t = await getTranslations('Index.navbar');
+
   return (
     <main className="container lg:p-20 p-5 mx-auto w-11/12">
       <div className="flex flex-col items-center gap-20">

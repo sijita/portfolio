@@ -1,7 +1,8 @@
 {
   "Index": {
     "header": {
-      "developer": "Developer"
+      "developer": "Developer",
+      "fullstack": "Full Stack"
     },
     "navbar": {
       "aboutMe": "About me",
