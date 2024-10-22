@@ -83,6 +83,7 @@ export default function NavBar() {
         menu: 'flex flex-col items-center justify-center top-0 bg-default rounded-b-2xl',
         wrapper: 'max-w-full flex justify-center',
       }}
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       isBlurred={false}
       shouldHideOnScroll
