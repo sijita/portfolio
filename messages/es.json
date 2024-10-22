@@ -73,8 +73,11 @@
     "title": "Proyectos",
     "viewBtn": "Ver proyecto",
     "projects": {
+      "futseek": {
+        "description": "Explora resultados de fútbol en vivo y por fechas, busca información acerca de diferentes ligas, jugadores, equipos, próximos partidos y partidos previos, todo en un mismo lugar para mantenerte al día."
+      },
       "movieverse": {
-        "description": "Movie-verse página web con información de películas y series."
+        "description": "Movie-verse es una plataforma completa diseñada para los amantes del cine y las series. Aquí encontrarás información detallada sobre tus películas y programas favoritos."
       },
       "ecommerce": {
         "description": "Página web de comercio electrónico, con sesión de usuarios, carrito de compras, productos favoritos, ordenes, administración de productos, administración de ordenes y demás."
@@ -86,7 +89,7 @@
         "description": "Página web de notas con inicio de sesión, creación de notas, edición de notas y eliminación de notas."
       },
       "pokedex": {
-        "description": "Página web con información de pokemones ."
+        "description": "Página web con información acerca de pokemones."
       },
       "rickandmorty": {
         "description": "App móvil con información de personajes y ubicaciones de Rick and Morty."

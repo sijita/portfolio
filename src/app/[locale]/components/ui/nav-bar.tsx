@@ -115,7 +115,7 @@ export default function NavBar() {
           </div>
         </div>
       </NavbarContent>
-      <NavbarContent className="max-md:hidden" justify="end">
+      <NavbarContent justify="end">
         <div className="flex items-center gap-2 py-3 px-5 bg-[#ffffff] dark:bg-[#0d0d0d] shadow-md rounded-full">
           <ThemeSwitcher />
           <LocaleSwitcher />

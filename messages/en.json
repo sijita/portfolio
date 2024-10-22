@@ -74,8 +74,11 @@
     "title": "Projects",
     "viewBtn": "View project",
     "projects": {
+      "futseek": {
+        "description": "Explore live and date-specific football scores, find information about different leagues, players, teams, upcoming fixtures and previous matches, all in one place to keep you up to date."
+      },
       "movieverse": {
-        "description": "Movie-verse web page with movies and series information."
+        "description": "Movie-verse is a comprehensive platform designed for movie and TV lovers. Here you will find detailed information about your favorite movies and shows."
       },
       "ecommerce": {
         "description": "Ecommerce website, with user session, shopping cart, favorite products, orders, product management, orders administration and others."
