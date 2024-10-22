@@ -107,6 +107,7 @@ export default function NavBar() {
                       : 'text-black dark:text-white'
                   }`}
                   href={item.href}
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
