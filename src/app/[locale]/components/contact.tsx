@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="flex space-x-4">
           <Button
             as={Link}
-            href="https://github.com/yourusername"
+            href="https://github.com/sijita"
             target="_blank"
             rel="noopener noreferrer"
             color="primary"
@@ -34,7 +34,7 @@ export default function Contact() {
           </Button>
           <Button
             as={Link}
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/simon-jimenez-tamayo"
             target="_blank"
             rel="noopener noreferrer"
             color="primary"
