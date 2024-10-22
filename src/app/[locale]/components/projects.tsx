@@ -15,6 +15,7 @@ function ProjectCard({
     description: string;
     image: string;
     liveUrl: string;
+    repoUrl: string;
     technologies: string[];
   };
 }) {
@@ -66,7 +67,7 @@ function ProjectCard({
           <div className="flex justify-around gap-1">
             <Button
               as={Link}
-              href={project.liveUrl}
+              href={project.repoUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1"
