@@ -12,8 +12,8 @@
       "experience": "Experience"
     },
     "aboutMe": {
-      "title": "About me",
-      "description": "Software Engineer with over 1 year of experience focused on web development.<space></space><space></space> I have solid skills and knowledge to create efficient and scalable web applications, using modern technologies to offer robust and high-performance solutions."
+      "description": "Software Engineer with over 1 year of experience focused on web development.<space></space><space></space> I have solid skills and knowledge to create efficient and scalable web applications, using modern technologies to offer robust and high-performance solutions.",
+      "downloadCv": "Download CV"
     },
     "skills": {
       "title": "Skills"
@@ -104,6 +104,8 @@
     }
   },
   "Contact": {
-    "title": "Send me a message"
+    "title": "Send me a message",
+    "connect": "Let's connect!",
+    "openTo": "Always open to new opportunities and collaborations."
   }
 }

@@ -1,11 +1,11 @@
-import AboutMe from './components/about-me';
-import SectionTitle from './components/ui/section-title';
-import Header from './components/header';
-import TechSkills from './components/tech-skills';
-import ExperienceTimeline from './components/experience-timeline';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import AboutMe from '@/components/core/about-me/about-me';
+import ProjectsSection from '@/components/core/projects/projects-section';
+import Header from '@/components/ui/header';
+import TechSkills from '@/components/core/skills/tech-skills';
+import SectionTitle from '@/components/ui/section-title';
 import { getTranslations } from 'next-intl/server';
+import Contact from '@/components/core/contact/contact';
+import ExperienceTimeline from '@/components/core/experience/experience-timeline';
 
 export default async function Home() {
   const t = await getTranslations('Index.navbar');
@@ -27,7 +27,7 @@ export default async function Home() {
       <SectionTitle title={t('experience')} id="experience" />
       <ExperienceTimeline />
       <SectionTitle title={t('projects')} id="projects" />
-      <Projects />
+      <ProjectsSection />
       <Contact />
     </main>
   );

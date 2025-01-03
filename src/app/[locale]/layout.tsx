@@ -4,7 +4,7 @@ import Providers from '../providers';
 import type { Metadata } from 'next';
 import '@/app/globals.css';
 import { Sora } from 'next/font/google';
-import NavBar from './components/ui/nav-bar';
+import NavBar from '@/components/ui/nav-bar';
 
 const sora = Sora({ subsets: ['latin'] });
 
