@@ -1,6 +1,6 @@
 'use client';
 import ProjectCard from './project-card';
-import useProjectsItems from '@/hooks/projects/use-projects-items';
+import useProjectsItems from '@/modules/home/hooks/projects/use-projects-items';
 
 export default function ProjectsSection() {
   const projects = useProjectsItems();

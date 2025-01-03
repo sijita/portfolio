@@ -10,7 +10,7 @@ import {
 } from '@nextui-org/react';
 import LocaleSwitcher from './locale-switcher';
 import ThemeSwitcher from './theme-switcher';
-import useHandleNavbar from '@/hooks/navbar/use-handle-navbar';
+import useHandleNavbar from '@/modules/core/hooks/use-handle-navbar';
 
 export default function NavBar() {
   const { linksItems, pathname, isMenuOpen, setIsMenuOpen, activeSection } =

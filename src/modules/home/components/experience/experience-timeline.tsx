@@ -1,5 +1,5 @@
 'use client';
-import useExperienceItems from '@/hooks/experience/use-experience-items';
+import useExperienceItems from '@/modules/home/hooks/experience/use-experience-items';
 
 export default function ExperienceTimeline() {
   const experienceItems = useExperienceItems();

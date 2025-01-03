@@ -1,5 +1,5 @@
 'use client';
-import useSkillsItems from '../../../hooks/skills/use-skills-items';
+import useSkillsItems from '../../hooks/skills/use-skills-items';
 
 export default function TechSkills() {
   const technologies = useSkillsItems();
