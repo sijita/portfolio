@@ -14,7 +14,7 @@ export default function useProjectsItems() {
     },
     {
       id: 1,
-      title: 'Movie-Verse',
+      title: 'Movieverse',
       description: t('movieverse.description'),
       image: '/movieverse.png',
       liveUrl: 'https://movieverse-info.vercel.app/',
