@@ -19,7 +19,7 @@ export default function useProjectsItems() {
       image: '/movieverse.png',
       liveUrl: 'https://movieverse-info.vercel.app/',
       repoUrl: 'https://github.com/sijita/movieverse',
-      technologies: ['Nextjs', 'Typescript', 'Tailwindcss'],
+      technologies: ['Nextjs', 'Typescript', 'Supabase', 'Tailwindcss'],
     },
     {
       id: 2,
