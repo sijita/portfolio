@@ -17,7 +17,7 @@ export default function useProjectsItems() {
       title: 'Movie-Verse',
       description: t('movieverse.description'),
       image: '/movieverse.png',
-      liveUrl: 'https://movieverse-gamma-jet.vercel.app/',
+      liveUrl: 'https://movieverse-info.vercel.app/',
       repoUrl: 'https://github.com/sijita/movieverse',
       technologies: ['Nextjs', 'Typescript', 'Tailwindcss'],
     },
