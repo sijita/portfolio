@@ -8,6 +8,7 @@ import {
   NavbarMenuItem,
   Link,
 } from '@nextui-org/react';
+import { motion } from 'framer-motion';
 import LocaleSwitcher from './locale-switcher';
 import ThemeSwitcher from './theme-switcher';
 import useHandleNavbar from '@/modules/core/hooks/use-handle-navbar';
@@ -36,31 +37,49 @@ export default function NavBar() {
         />
       </NavbarContent>
       <NavbarContent className="max-md:hidden" justify="center">
-        <div className="w-full flex items-center gap-10 py-3 px-5 rounded-full bg-[#ffffff] dark:bg-[#0d0d0d] shadow-md">
-          <p className="font-medium text-primary uppercase">Sijita</p>
+        <motion.div
+          className="w-full flex items-center gap-10 py-3 px-5 rounded-full bg-[#ffffff] dark:bg-[#0d0d0d] shadow-md"
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+          <motion.p
+            className="font-medium text-primary uppercase"
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.2 }}
+          >
+            Sijita
+          </motion.p>
           <div className="flex gap-4">
             {linksItems.map((item, index) => (
               <NavbarItem key={index}>
-                <Link
-                  className={`uppercase text-sm ${
-                    `#${activeSection}` === item.href
-                      ? 'text-primary font-semibold'
-                      : 'text-black dark:text-white'
-                  }`}
-                  href={item.href}
-                >
-                  {item.label}
-                </Link>
+                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                  <Link
+                    className={`uppercase text-sm ${
+                      `#${activeSection}` === item.href
+                        ? 'text-primary font-semibold'
+                        : 'text-black dark:text-white'
+                    }`}
+                    href={item.href}
+                  >
+                    {item.label}
+                  </Link>
+                </motion.div>
               </NavbarItem>
             ))}
           </div>
-        </div>
+        </motion.div>
       </NavbarContent>
       <NavbarContent justify="end">
-        <div className="flex items-center gap-2 py-3 px-5 bg-[#ffffff] dark:bg-[#0d0d0d] shadow-md rounded-full">
+        <motion.div
+          className="flex items-center gap-2 py-3 px-5 bg-[#ffffff] dark:bg-[#0d0d0d] shadow-md rounded-full"
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
+        >
           <ThemeSwitcher />
           <LocaleSwitcher />
-        </div>
+        </motion.div>
       </NavbarContent>
       <NavbarMenu className="dark:bg-[#0d0d0d] bg-white">
         {linksItems.map((item, index) => (

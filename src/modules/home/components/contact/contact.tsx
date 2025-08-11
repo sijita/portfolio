@@ -48,7 +48,7 @@ export default function Contact() {
       <Button
         as={Link}
         href="mailto:simonjt.s2001@gmail.com"
-        className="flex items-center gap-2 text-primary hover:text-black my-5"
+        className="flex items-center gap-2 text-primary hover:text-black dark:hover:text-black my-5"
         color="primary"
         variant="ghost"
         fullWidth

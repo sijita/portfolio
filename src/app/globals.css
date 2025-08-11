@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.dark {
+  background-color: #111111;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

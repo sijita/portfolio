@@ -1,4 +1,5 @@
 'use client';
+import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import DownloadCvBtn from './download-cv-btn';
@@ -9,7 +10,9 @@ export default function AboutMe() {
   return (
     <section className="md:container mx-auto sm:px-4 md:px-20 xl:px-40 py-14">
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
-        <div className="w-60 h-60 overflow-hidden rounded-full border-3 border-primary flex-shrink-0">
+        <div
+          className="w-60 h-60 overflow-hidden rounded-full border-3 border-primary flex-shrink-0"
+        >
           <Image
             src="/me.jpeg"
             alt="Foto personal"
@@ -19,12 +22,20 @@ export default function AboutMe() {
           />
         </div>
         <div className="flex flex-col gap-5">
-          <p className="text-lg dark:text-gray-400 text-gray-700 sm:w-[35rem] max-lg:text-center">
+          <p className="text-lg dark:text-gray-300 text-gray-700 sm:w-[35rem] max-lg:text-center"
+          >
             {t.rich('description', {
               space: () => <br></br>,
             })}
           </p>
-          <DownloadCvBtn btnText={t('downloadCv')} />
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+          >
+            <DownloadCvBtn btnText={t('downloadCv')} />
+          </motion.div>
         </div>
       </div>
     </section>
