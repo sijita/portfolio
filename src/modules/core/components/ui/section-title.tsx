@@ -27,14 +27,14 @@ export default function SectionTitle({ title, id }: { title: string; id?: string
         ></div>
       </motion.div>
       <motion.div
-        className="relative z-10 bg-white dark:bg-[#000000] px-4 py-2 shadow-md rounded-full"
+        className="relative z-10 bg-[#FAFAFA] dark:bg-[#111111] px-4 py-2 rounded-full"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.4 }}
         whileHover={{ scale: 1.05 }}
       >
-        <p className="font-medium dark:text-primary">{title}</p>
+        <p className="font-medium text-primary">{title}</p>
       </motion.div>
     </motion.div>
   );
