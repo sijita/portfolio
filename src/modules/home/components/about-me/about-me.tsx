@@ -33,6 +33,7 @@ export default function AboutMe() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.7 }}
+            className='max-lg:flex max-lg:justify-center'
           >
             <DownloadCvBtn btnText={t('downloadCv')} />
           </motion.div>
