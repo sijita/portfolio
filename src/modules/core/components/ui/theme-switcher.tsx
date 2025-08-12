@@ -3,15 +3,6 @@ import { useTheme } from 'next-themes';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { useRef } from 'react';
 
-// Extend Document interface for View Transitions API
-declare global {
-  interface Document {
-    startViewTransition?: (callback: () => void) => {
-      ready: Promise<void>;
-    };
-  }
-}
-
 export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
   const buttonRef = useRef<HTMLButtonElement>(null);
