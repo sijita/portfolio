@@ -4,6 +4,16 @@ export default function useExperienceItems() {
   const t = useTranslations('Experience.employeeJobsList.jobs');
   const experienceItems = [
     {
+      date: t('leancore.year'),
+      label: t('leancore.job'),
+      title: t('leancore.company'),
+    },
+    {
+      date: t('themadfox.year'),
+      label: t('themadfox.job'),
+      title: t('themadfox.company'),
+    },
+    {
       date: t('hospital.year'),
       label: t('hospital.job'),
       title: t('hospital.company'),

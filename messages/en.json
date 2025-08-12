@@ -46,6 +46,16 @@
           "company": "Bemaster",
           "job": "Web front-end developer",
           "year": "Abr 2024 - Jun 2024"
+        },
+        "leancore": {
+          "company": "LeanCore",
+          "job": "Web front-end developer",
+          "year": "Feb 2025 - Present"
+        },
+        "themadfox":{
+          "company": "TheMadFox",
+          "job": "Web front-end developer",
+          "year": "Feb 2025 - Present"
         }
       }
     },
@@ -74,6 +84,12 @@
     "title": "Projects",
     "viewBtn": "View project",
     "projects": {
+      "cateringfoodbakery":{
+        "description": "Website for a catering and bakery business showcasing their delicious food offerings, services, custom cake designs."
+      },
+      "rodriguezcleaning":{
+        "description": "Website for a cleaning company, with information about the company, services, contact and location."
+      },
       "futseek": {
         "description": "Explore live and date-specific football scores, find information about different leagues, players, teams, upcoming fixtures and previous matches, all in one place to keep you up to date."
       },
@@ -97,9 +113,6 @@
       },
       "servidrones": {
         "description": "Servidrones company lading page."
-      },
-      "ambeyma": {
-        "description": "Ambeyma company landing page."
       }
     }
   },

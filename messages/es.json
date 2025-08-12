@@ -46,6 +46,16 @@
           "company": "Bemaster",
           "job": "Desarrollador front-end web",
           "year": "Abr 2024 - Jun 2024"
+        },
+         "leancore": {
+          "company": "LeanCore",
+          "job": "Desarrollador front-end web",
+          "year": "Feb 2025 - Actual"
+        },
+        "themadfox":{
+          "company": "TheMadFox",
+          "job": "Desarrollador front-end web",
+          "year": "Feb 2025 - Actual"
         }
       }
     },
@@ -74,6 +84,12 @@
     "title": "Proyectos",
     "viewBtn": "Ver proyecto",
     "projects": {
+      "cateringfoodbakery":{
+        "description": "Sitio web para un negocio de catering y panadería que muestra sus deliciosas ofertas de comida, servicios y diseños de pasteles personalizados."
+      },
+      "rodriguezcleaning":{
+        "description": "Sitio web para una empresa de limpieza, con información sobre la empresa, servicios, contacto y ubicación."
+      },
       "futseek": {
         "description": "Explora resultados de fútbol en vivo y por fechas, busca información acerca de diferentes ligas, jugadores, equipos, próximos partidos y partidos previos, todo en un mismo lugar para mantenerte al día."
       },
@@ -97,9 +113,6 @@
       },
       "servidrones": {
         "description": "Lading page de la empresa Servidrones."
-      },
-      "ambeyma": {
-        "description": "Lading page de la empresa Ambeyma."
       }
     }
   },
