@@ -84,8 +84,20 @@
     "title": "Projects",
     "viewBtn": "View project",
     "projects": {
+       "savoryapp":{
+        "description": "Mobile app for Mis Raices for your operational management of inventory and purchases."
+      },
+       "techecommerce":{
+        "description": "Ecommerce website for selling technology products with an administrative panel for product management, as well as integrating user registration, saving profile pictures, favorite products, addresses, products with reviews, and integrated payments with MercadoPago."
+      },
+      "lenderapp":{
+        "description": "Mobile and web app designed and developed for the client to keep track of loans, amortizations, payments...etc."
+      },
+      "karolgportfolio":{
+        "description": "Personal portfolio for a client who is a lawyer, to showcase her information and services."
+      },
       "cateringfoodbakery":{
-        "description": "Website for a catering and bakery business showcasing their delicious food offerings, services, custom cake designs."
+        "description": "Website for a catering and bakery business showcasing its delicious food offerings and personalized services."
       },
       "rodriguezcleaning":{
         "description": "Website for a cleaning company, with information about the company, services, contact and location."
@@ -96,9 +108,6 @@
       "movieverse": {
         "description": "Movie-verse is a comprehensive platform designed for movie and TV lovers. Here you will find detailed information about your favorite movies and shows."
       },
-      "ecommerce": {
-        "description": "Ecommerce website, with user session, shopping cart, favorite products, orders, product management, orders administration and others."
-      },
       "footballquiz": {
         "description": "Website Questions and Answers about soccer with score."
       },
@@ -107,9 +116,6 @@
       },
       "pokedex": {
         "description": "Website with pokemon information."
-      },
-      "rickandmorty": {
-        "description": "Mobile app with information from characters and locations by Rick and Morty."
       },
       "servidrones": {
         "description": "Servidrones company lading page."

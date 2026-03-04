@@ -84,32 +84,35 @@
     "title": "Proyectos",
     "viewBtn": "Ver proyecto",
     "projects": {
+       "savoryapp":{
+        "description": "App móvil para Mis Raices para su gestión operativa de inventario y compras."
+      },
+       "techecommerce":{
+        "description": "Ecommerce web de venta de productos tecnologícos con panel administrativo para gestión de productos, además de integrar registro de usuarios, guarda foto de perfil, productos favoritos, direcciones, productos con reviews y pagos integrados con MercadoPago."
+      },
+      "lenderapp":{
+        "description": "App móvil y web diseñada y desarrollada para que el cliente lleve registro de prestamos, amortizaciones, pagos...etc."
+      },
+      "karolgportfolio":{
+        "description": "Portafolio personal para cliente de profesión abogada para mostrar su información y servicios."
+      },
       "cateringfoodbakery":{
-        "description": "Sitio web para un negocio de catering y panadería que muestra sus deliciosas ofertas de comida, servicios y diseños de pasteles personalizados."
+        "description": "Página web para un negocio de catering y panadería que muestra sus deliciosas ofertas de comida y servicios personalizados."
       },
       "rodriguezcleaning":{
-        "description": "Sitio web para una empresa de limpieza, con información sobre la empresa, servicios, contacto y ubicación."
+        "description": "Página web para una empresa de limpieza, con información sobre la empresa, servicios, contacto y ubicación."
       },
       "futseek": {
         "description": "Explora resultados de fútbol en vivo y por fechas, busca información acerca de diferentes ligas, jugadores, equipos, próximos partidos y partidos previos, todo en un mismo lugar para mantenerte al día."
       },
       "movieverse": {
-        "description": "Movie-verse es una plataforma completa diseñada para los amantes del cine y las series. Aquí encontrarás información detallada sobre tus películas y programas favoritos."
-      },
-      "ecommerce": {
-        "description": "Página web de comercio electrónico, con sesión de usuarios, carrito de compras, productos favoritos, ordenes, administración de productos, administración de ordenes y demás."
+        "description": "Movie-verse es una plataforma diseñada para los amantes del cine y las series. Aquí encontrarás información detallada sobre tus películas y programas favoritos."
       },
       "footballquiz": {
         "description": "Página web de preguntas y respuestas sobre fútbol con puntuación."
       },
-      "notys": {
-        "description": "Página web de notas con inicio de sesión, creación de notas, edición de notas y eliminación de notas."
-      },
       "pokedex": {
         "description": "Página web con información acerca de pokemones."
-      },
-      "rickandmorty": {
-        "description": "App móvil con información de personajes y ubicaciones de Rick and Morty."
       },
       "servidrones": {
         "description": "Lading page de la empresa Servidrones."
