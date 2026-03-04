@@ -26,8 +26,8 @@ export default function useProjectsItems() {
       title: 'Futseek',
       description: t('futseek.description'),
       image: '/futseek.png',
-      liveUrl: 'https://futseek.com',
-      repoUrl: 'https://futseek.com',
+      liveUrl: 'https://futseek.vercel.app/',
+      repoUrl: 'https://futseek.vercel.app/',
       technologies: ['Nextjs', 'Typescript', 'Tailwindcss'],
     },
     {
