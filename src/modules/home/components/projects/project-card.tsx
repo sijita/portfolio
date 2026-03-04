@@ -13,8 +13,8 @@ export default function ProjectCard({
     title: string;
     description: string;
     image: string;
-    liveUrl: string;
-    repoUrl: string;
+    liveUrl?: string;
+    repoUrl?: string;
     technologies: string[];
   };
 }) {
@@ -63,30 +63,34 @@ export default function ProjectCard({
             </div>
           </div>
           <div className="flex justify-around gap-1">
-            <Button
-              as={Link}
-              href={project.repoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1"
-              variant="light"
-              color="primary"
-              size="sm"
-            >
-              <FaGithub size={15} />
-            </Button>
-            <Button
-              as={Link}
-              href={project.liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1"
-              variant="light"
-              color="primary"
-              size="sm"
-            >
-              <FaLink size={15} />
-            </Button>
+            {project.repoUrl && 
+              (<Button
+                as={Link}
+                href={project.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+                variant="light"
+                color="primary"
+                size="sm"
+              >
+                <FaGithub size={15} />
+              </Button>
+            )}
+           {project.liveUrl && 
+            (<Button
+                as={Link}
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+                variant="light"
+                color="primary"
+                size="sm"
+              >
+                <FaLink size={15} />
+              </Button>
+            )}
           </div>
         </div>
       </div>
