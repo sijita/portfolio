@@ -29,8 +29,7 @@ export default function TechSkills() {
   };
 
   return (
-    <section className="md:container mx-auto sm:px-4 md:px-20 xl:px-40 py-14">
-      <motion.div
+    <motion.div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8"
         variants={containerVariants}
         initial="hidden"
@@ -62,6 +61,5 @@ export default function TechSkills() {
           </motion.div>
         ))}
       </motion.div>
-    </section>
   );
 }

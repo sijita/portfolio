@@ -4,7 +4,18 @@ import { motion } from 'framer-motion';
 export default function FloatingElements() {
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-      {/* Floating circles */}
+      {/* Subtle grid */}
+      <div
+        className="absolute inset-0 opacity-[0.015] dark:opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(to right, currentColor 1px, transparent 1px),
+            linear-gradient(to bottom, currentColor 1px, transparent 1px)
+          `,
+          backgroundSize: '48px 48px',
+        }}
+      />
+      {/* Floating orbs */}
       <motion.div
         className="absolute w-64 h-64 rounded-full bg-primary/5 blur-3xl"
         animate={{

@@ -29,7 +29,7 @@ export default function ExperienceTimeline() {
   };
 
   return (
-    <section className="md:container mx-auto sm:px-4 md:px-20 xl:px-40 py-14 flex justify-center w-full">
+    <div className="flex justify-center w-full">
       <motion.div
         className="-my-6"
         variants={containerVariants}
@@ -74,6 +74,6 @@ export default function ExperienceTimeline() {
           </motion.div>
         ))}
       </motion.div>
-    </section>
+    </div>
   );
 }

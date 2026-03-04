@@ -1,17 +1,32 @@
 'use client';
+
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import ProjectCard from './project-card';
 import useProjectsItems from '@/modules/home/hooks/projects/use-projects-items';
 
 export default function ProjectsSection() {
+  const t = useTranslations('Projects');
   const projects = useProjectsItems();
 
   return (
-    <section className="md:container mx-auto sm:px-4 md:px-20 xl:px-40 py-14">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
+    <div className="space-y-10">
+      <motion.p
+        className="text-center text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto text-sm sm:text-base"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4 }}
+      >
+        {t('subtitle')}
+      </motion.p>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 list-none p-0 m-0 items-stretch">
+        {projects.map((project, index) => (
+          <li key={project.id} className="min-h-full">
+            <ProjectCard project={project} index={index} />
+          </li>
         ))}
-      </div>
-    </section>
+      </ul>
+    </div>
   );
 }

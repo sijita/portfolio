@@ -12,7 +12,7 @@
       "experience": "Experience"
     },
     "aboutMe": {
-      "description": "Software Engineer with over 1 year of experience focused on web development.<space></space><space></space> I have solid skills and knowledge to create efficient and scalable web applications, using modern technologies to offer robust and high-performance solutions.",
+      "description": "Software Engineer with over 2 years of experience developing scalable, high-performance mobile/web applications.<space></space><space></space> I am passionate about transforming ideas into real, functional products through clean code, solid architecture, and a strong focus on performance and user experience.",
       "downloadCv": "Download CV"
     },
     "skills": {
@@ -82,7 +82,9 @@
   },
   "Projects": {
     "title": "Projects",
+    "subtitle": "Some of the projects I've worked on — web, mobile and full stack.",
     "viewBtn": "View project",
+    "technologiesLabel": "Technologies",
     "projects": {
        "savoryapp":{
         "description": "Mobile app for Mis Raices for your operational management of inventory and purchases."

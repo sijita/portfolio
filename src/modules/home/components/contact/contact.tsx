@@ -8,15 +8,15 @@ export default function Contact() {
   const t = useTranslations('Contact');
 
   return (
-    <footer className="md:container mx-auto pt-14" id="contact">
-      <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-4 md:mb-0">
-          <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-[#40EA2F] bg-clip-text text-transparent">
+    <footer className="flex flex-col gap-8">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="text-center md:text-left">
+          <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-emerald-400 dark:to-emerald-300 bg-clip-text text-transparent">
             {t('connect')}
           </h3>
-          <p className="text-sm mt-2">{t('openTo')}</p>
+          <p className="text-sm mt-2 text-neutral-600 dark:text-neutral-400">{t('openTo')}</p>
         </div>
-        <div className="flex space-x-4">
+        <div className="flex gap-3">
           <Button
             as={Link}
             href="https://github.com/sijita"
@@ -25,10 +25,11 @@ export default function Contact() {
             color="primary"
             radius="full"
             isIconOnly
-            size="sm"
-            variant="light"
+            size="md"
+            variant="flat"
+            className="shadow-sm"
           >
-            <FaGithub className="text-primary" size={20} />
+            <FaGithub size={20} className="text-primary" />
           </Button>
           <Button
             as={Link}
@@ -38,28 +39,29 @@ export default function Contact() {
             color="primary"
             radius="full"
             isIconOnly
-            size="sm"
-            variant="light"
+            size="md"
+            variant="flat"
+            className="shadow-sm"
           >
-            <FaLinkedinIn className="text-primary" size={20} />
+            <FaLinkedinIn size={20} className="text-primary" />
           </Button>
         </div>
       </div>
       <Button
         as={Link}
         href="mailto:simonjt.s2001@gmail.com"
-        className="flex items-center gap-2 text-primary hover:text-black dark:hover:text-black my-5"
+        className="flex items-center justify-center gap-2 font-medium text-black"
         color="primary"
-        variant="ghost"
-        fullWidth
+        variant="solid"
+        size="lg"
+        radius="full"
       >
-        <TbMail />
+        <TbMail size={20} />
         {t('title')}
       </Button>
-      <div className="mt-8 text-center">
-        <p className="text-sm text-gray-400">
-          &copy; {new Date().getFullYear()} Simón Jiménez Tamayo. All rights
-          reserved.
+      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800 text-center">
+        <p className="text-xs text-neutral-500">
+          &copy; {new Date().getFullYear()} Simón Jiménez Tamayo
         </p>
       </div>
     </footer>

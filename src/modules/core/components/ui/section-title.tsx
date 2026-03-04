@@ -1,7 +1,37 @@
 'use client';
 import { motion } from 'framer-motion';
 
-export default function SectionTitle({ title, id }: { title: string; id?: string }) {
+type SectionTitleProps = {
+  title: string;
+  id?: string;
+  /** 'center' = pill con línea (actual). 'left' = título con línea de acento a la izquierda */
+  align?: 'center' | 'left';
+};
+
+export default function SectionTitle({ title, id, align = 'center' }: SectionTitleProps) {
+  if (align === 'left') {
+    return (
+      <motion.div
+        className="relative flex items-center gap-4 w-full"
+        id={id}
+        initial={{ opacity: 0, x: -20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, margin: '-50px' }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
+      >
+        <div className="h-px flex-1 max-w-12 bg-primary rounded-full" />
+        <h2 className="text-lg font-semibold uppercase tracking-wider text-primary">{title}</h2>
+        <div
+          className="h-px flex-1 border-t border-dashed border-neutral-300 dark:border-neutral-600"
+          style={{
+            maskImage: 'linear-gradient(to right, black 0%, transparent 100%)',
+            WebkitMaskImage: 'linear-gradient(to right, black 0%, transparent 100%)',
+          }}
+        />
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div
       className="relative flex items-center justify-center w-full"
@@ -18,13 +48,13 @@ export default function SectionTitle({ title, id }: { title: string; id?: string
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <div 
+        <div
           className="w-full border-t border-dashed border-neutral-600 relative"
           style={{
             maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
-            WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)'
+            WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
           }}
-        ></div>
+        />
       </motion.div>
       <motion.div
         className="relative z-10 bg-[#FAFAFA] dark:bg-[#111111] px-4 py-2 rounded-full"
