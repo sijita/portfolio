@@ -43,13 +43,6 @@ export default function NavBar() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <motion.p
-            className="font-medium text-primary uppercase"
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.2 }}
-          >
-            Sijita
-          </motion.p>
           <div className="flex gap-4">
             {linksItems.map((item, index) => (
               <NavbarItem key={index}>
