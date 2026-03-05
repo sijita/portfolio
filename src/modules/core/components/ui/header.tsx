@@ -31,7 +31,7 @@ function AnimatedLine({ text, className = '', delay = 0 }: { text: string; class
 function ScrollIndicator() {
   return (
     <motion.div
-      className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-neutral-400"
+      className="flex flex-col items-center gap-2 text-neutral-400 mx-auto"
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1.8, duration: 0.5 }}
@@ -55,6 +55,7 @@ export default function Header() {
   const codeDelay = 0.3 + (developer.length + fullstack.length) * stagger + 0.35;
 
   return (
+    <div className="flex flex-col">
     <div className="relative flex flex-col sm:flex-row items-center justify-center gap-10 min-h-[60vh] overflow-hidden pb-16">
       <motion.div
         className="relative z-10"
@@ -112,6 +113,7 @@ export default function Header() {
           </motion.div>
         </motion.div>
       </div>
+    </div>
       <ScrollIndicator />
     </div>
   );
