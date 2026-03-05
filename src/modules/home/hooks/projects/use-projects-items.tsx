@@ -40,6 +40,7 @@ export default function useProjectsItems() {
       title: 'Tech Ecommerce',
       description: t('techecommerce.description'),
       image: '/techecommerce.png',
+      liveUrl: "https://sijita-ecommerce.vercel.app/",
       technologies: ['Nextjs', 'Typescript', 'Tailwindcss', 'Postgres', 'Prisma'],
     },
     {
