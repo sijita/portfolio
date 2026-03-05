@@ -71,7 +71,7 @@ export default function Header() {
           priority
         />
       </motion.div>
-      <div className="relative z-10">
+      <div className="relative z-10 flex flex-col gap-5">
         <div className="text-6xl max-lg:text-4xl font-bold max-sm:text-center relative z-10">
           <AnimatedLine text={developer} delay={0.3} />
           <AnimatedLine
@@ -81,7 +81,7 @@ export default function Header() {
           />
         </div>
         <motion.div
-          className="mt-12 font-mono text-xs rounded-lg border border-neutral-200 dark:border-neutral-700 bg-neutral-50/80 dark:bg-neutral-900/80 px-4 py-3 w-fit shadow-sm"
+          className="font-mono text-xs rounded-lg border border-neutral-200 dark:border-neutral-700 bg-neutral-50/80 dark:bg-neutral-900/80 px-4 py-3 w-fit mx-auto sm:mx-0 shadow-sm"
           initial={{ opacity: 0, y: 12, scale: 0.96 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.5, delay: codeDelay - 0.2, ease }}
