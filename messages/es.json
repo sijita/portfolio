@@ -58,26 +58,6 @@
           "year": "Feb 2025 - Ago 2025"
         }
       }
-    },
-    "freelanceJobsList": {
-      "title": "Independiente",
-      "jobs": {
-        "servidrones": {
-          "company": "Servidrones",
-          "job": "Página web Servidrones",
-          "year": "2022"
-        },
-        "hotelambeyma": {
-          "company": "Hotel Ambeyma",
-          "job": "Página web Hotel Ambeyma",
-          "year": "2021"
-        },
-        "personal": {
-          "company": "Sijita",
-          "job": "Proyectos personales",
-          "year": "2019 - Actualidad"
-        }
-      }
     }
   },
   "Projects": {
@@ -115,9 +95,6 @@
       },
       "pokedex": {
         "description": "Página web con información acerca de pokemones."
-      },
-      "servidrones": {
-        "description": "Lading page de la empresa Servidrones."
       }
     }
   },

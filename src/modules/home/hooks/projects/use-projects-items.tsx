@@ -87,15 +87,6 @@ export default function useProjectsItems() {
       repoUrl: 'https://github.com/sijita/rodriguez-cleaning',
       technologies: ['Nextjs', 'Typescript', 'Tailwindcss'],
     },
-    {
-      id: 11,
-      title: 'Servidrones',
-      description: t('servidrones.description'),
-      image: '/servidrones.png',
-      liveUrl: 'https://servidrones.vercel.app/',
-      repoUrl: 'https://github.com/sijita/Servidrones',
-      technologies: ['React', 'Tailwindcss'],
-    },
   ];
 
   return projects;
