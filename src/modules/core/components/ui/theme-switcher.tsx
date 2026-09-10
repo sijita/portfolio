@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@nextui-org/react';
 import { useTheme } from 'next-themes';
 import { HiMoon, HiSun } from 'react-icons/hi';

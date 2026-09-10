@@ -4,10 +4,10 @@ import { Button, Chip, Tooltip } from '@nextui-org/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { FaGithub, FaLink } from 'react-icons/fa';
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: (i: number) => ({
     opacity: 1,

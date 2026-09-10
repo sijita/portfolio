@@ -1,3 +1,4 @@
+'use client';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { Button } from '@nextui-org/react';
 import { useLocale } from 'next-intl';

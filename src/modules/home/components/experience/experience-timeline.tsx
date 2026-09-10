@@ -1,11 +1,11 @@
 'use client';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import useExperienceItems from '@/modules/home/hooks/experience/use-experience-items';
 
 export default function ExperienceTimeline() {
   const experienceItems = useExperienceItems();
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -16,7 +16,7 @@ export default function ExperienceTimeline() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, x: -50 },
     visible: {
       opacity: 1,

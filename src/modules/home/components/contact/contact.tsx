@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@nextui-org/react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';

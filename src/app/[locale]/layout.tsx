@@ -1,5 +1,7 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getMessages, setRequestLocale } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 import Providers from '../providers';
 import type { Metadata } from 'next';
 import '@/app/globals.css';
@@ -13,13 +15,23 @@ export const metadata: Metadata = {
   description: 'Portafolio de Simón Jiménez Tamayo',
 };
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const messages = await getMessages();
 
   return (
