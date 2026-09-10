@@ -12,7 +12,7 @@
       "experience": "Experience"
     },
     "aboutMe": {
-      "description": "Software Engineer with over 2 years of experience developing scalable, high-performance mobile/web applications.<space></space><space></space> I am passionate about transforming ideas into real, functional products through clean code, solid architecture, and a strong focus on performance and user experience.",
+      "description": "Fullstack mobile and web Software Engineer with over 3 years of experience turning ideas into real products.<space></space><space></space> I prioritize robust architectures and user experiences that truly work.",
       "downloadCv": "Download CV"
     },
     "skills": {
@@ -52,7 +52,7 @@
           "job": "Web front-end developer",
           "year": "Feb 2025 - Present"
         },
-        "themadfox":{
+        "themadfox": {
           "company": "TheMadFox",
           "job": "Web front-end developer",
           "year": "Feb 2025 - Aug 2025"
@@ -66,38 +66,20 @@
     "viewBtn": "View project",
     "technologiesLabel": "Technologies",
     "projects": {
-       "savoryapp":{
+      "savoryapp": {
         "description": "Mobile app for Mis Raices for your operational management of inventory and purchases."
       },
-       "techecommerce":{
-        "description": "Ecommerce website for selling technology products with an administrative panel for product management, as well as integrating user registration, saving profile pictures, favorite products, addresses, products with reviews, and integrated payments with MercadoPago."
-      },
-      "lenderapp":{
+      "lenderapp": {
         "description": "Mobile and web app designed and developed for the client to keep track of loans, amortizations, payments...etc."
       },
-      "karolgportfolio":{
+      "karolgportfolio": {
         "description": "Personal portfolio for a client who is a lawyer, to showcase her information and services."
-      },
-      "cateringfoodbakery":{
-        "description": "Website for a catering and bakery business showcasing its delicious food offerings and personalized services."
-      },
-      "rodriguezcleaning":{
-        "description": "Website for a cleaning company, with information about the company, services, contact and location."
       },
       "futseek": {
         "description": "Explore live and date-specific football scores, find information about different leagues, players, teams, upcoming fixtures and previous matches, all in one place to keep you up to date."
       },
       "movieverse": {
         "description": "Movie-verse is a comprehensive platform designed for movie and TV lovers. Here you will find detailed information about your favorite movies and shows."
-      },
-      "footballquiz": {
-        "description": "Website Questions and Answers about soccer with score."
-      },
-      "notys": {
-        "description": "Website of notes with login, creation of notes, editing of notes and removal of notes."
-      },
-      "pokedex": {
-        "description": "Website with pokemon information."
       }
     }
   },

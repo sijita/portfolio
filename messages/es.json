@@ -12,7 +12,7 @@
       "experience": "Experiencia"
     },
     "aboutMe": {
-      "description": "Ingeniero de Software con más de 2 años de experiencia en el desarrollo de aplicaciones móviles/web escalables y de alto rendimiento.<space></space><space></space> Me apasiona transformar ideas en productos reales y funcionales a través de código limpio, arquitectura sólida y un enfoque fuerte y especial en el rendimiento y la experiencia de usuario.",
+      "description": "Ingeniero de Software fullstack móvil y web con más de 3 años de experiencia desarrollando ideas en productos reales.<space></space><space></space> Priorizo arquitecturas sólidas y experiencias de usuario que realmente funcionan.",
       "downloadCv": "Descargar HV"
     },
     "skills": {
@@ -47,12 +47,12 @@
           "job": "Desarrollador front-end web",
           "year": "Abr 2024 - Jun 2024"
         },
-         "leancore": {
+        "leancore": {
           "company": "LeanCore",
           "job": "Desarrollador front-end web",
           "year": "Feb 2025 - Actual"
         },
-        "themadfox":{
+        "themadfox": {
           "company": "TheMadFox",
           "job": "Desarrollador front-end web",
           "year": "Feb 2025 - Ago 2025"
@@ -66,35 +66,20 @@
     "viewBtn": "Ver proyecto",
     "technologiesLabel": "Tecnologías",
     "projects": {
-       "savoryapp":{
+      "savoryapp": {
         "description": "App móvil para Mis Raices para su gestión operativa de inventario y compras."
       },
-       "techecommerce":{
-        "description": "Ecommerce web de venta de productos tecnologícos con panel administrativo para gestión de productos, además de integrar registro de usuarios, guarda foto de perfil, productos favoritos, direcciones, productos con reviews y pagos integrados con MercadoPago."
-      },
-      "lenderapp":{
+      "lenderapp": {
         "description": "App móvil y web diseñada y desarrollada para que el cliente lleve registro de prestamos, amortizaciones, pagos...etc."
       },
-      "karolgportfolio":{
+      "karolgportfolio": {
         "description": "Portafolio personal para cliente de profesión abogada para mostrar su información y servicios."
-      },
-      "cateringfoodbakery":{
-        "description": "Página web para un negocio de catering y panadería que muestra sus deliciosas ofertas de comida y servicios personalizados."
-      },
-      "rodriguezcleaning":{
-        "description": "Página web para una empresa de limpieza, con información sobre la empresa, servicios, contacto y ubicación."
       },
       "futseek": {
         "description": "Explora resultados de fútbol en vivo y por fechas, busca información acerca de diferentes ligas, jugadores, equipos, próximos partidos y partidos previos, todo en un mismo lugar para mantenerte al día."
       },
       "movieverse": {
         "description": "Movie-verse es una plataforma diseñada para los amantes del cine y las series. Aquí encontrarás información detallada sobre tus películas y programas favoritos."
-      },
-      "footballquiz": {
-        "description": "Página web de preguntas y respuestas sobre fútbol con puntuación."
-      },
-      "pokedex": {
-        "description": "Página web con información acerca de pokemones."
       }
     }
   },
