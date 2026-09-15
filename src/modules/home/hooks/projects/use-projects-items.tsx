@@ -51,6 +51,14 @@ export default function useProjectsItems() {
       liveUrl: "https://karolgportfolio.vercel.app/",
       technologies: ["Nextjs", "Tailwindcss"],
     },
+    {
+      id: 7,
+      title: "Fertilizantes hj",
+      description: t("fertilizanteshj.description"),
+      image: "/fertilizanteshj.png",
+      liveUrl: "https://fertilizanteshj.vercel.app/",
+      technologies: ["Nextjs", "Typescript", "Tailwindcss"],
+    },
   ];
 
   return projects;
