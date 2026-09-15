@@ -66,20 +66,26 @@
     "viewBtn": "Ver proyecto",
     "technologiesLabel": "Tecnologías",
     "projects": {
+      "canchify": {
+        "description": "Plataforma marketplace para la gestión y reserva de canchas deportivas en Colombia (fútbol 5/6/7/8/11 y pádel). Centraliza disponibilidad, reservas y pagos para ayudar a clubes, reemplazando WhatsApp/Excel con agenda digital, pagos vía MercadoPago y gestión operativa completa."
+      },
+      "nodify": {
+        "description": "App de escritorio (Tauri v2 + Rust + React) que unifica en un solo panel la configuración de agentes de IA de código (Claude Code, Codex, OpenCode, Kilo Code y Pi). Gestiona MCPs, Skills, modelos, reglas y API keys traduciendo entre formatos nativos (JSON/TOML/JSONC) y sincronizando entre dispositivos vía Git."
+      },
       "savoryapp": {
-        "description": "App móvil para Mis Raices para su gestión operativa de inventario y compras."
+        "description": "App móvil hecha para el restaurante 'Mis Raices', enfocada en mejorar su gestión operativa de inventario y compras."
       },
       "lenderapp": {
-        "description": "App móvil y web diseñada y desarrollada para que el cliente lleve registro de prestamos, amortizaciones, pagos...etc."
+        "description": "App móvil y web diseñada y desarrollada para que el cliente lleve registro de sus prestamos, clientes, amortizaciones, pagos y recordatorios."
       },
       "karolgportfolio": {
-        "description": "Portafolio personal para cliente de profesión abogada para mostrar su información y servicios."
-      },
-      "futseek": {
-        "description": "Explora resultados de fútbol en vivo y por fechas, busca información acerca de diferentes ligas, jugadores, equipos, próximos partidos y partidos previos, todo en un mismo lugar para mantenerte al día."
+        "description": "Portafolio personal para 'Karol Galindo' de profesión abogada para mostrar su información laboral y los servicios que ofrece."
       },
       "movieverse": {
-        "description": "Movie-verse es una plataforma diseñada para los amantes del cine y las series. Aquí encontrarás información detallada sobre tus películas y programas favoritos."
+        "description": "Movie-verse es una plataforma diseñada para los amantes del cine. Enfocada en encontrar información detallada sobre tus películas y series favoritas."
+      },
+      "fertilizanteshj": {
+        "description": "Landing page informativa para la empresa 'Fertilizantes hj'."
       }
     }
   },

@@ -66,20 +66,26 @@
     "viewBtn": "View project",
     "technologiesLabel": "Technologies",
     "projects": {
+      "canchify": {
+        "description": "A marketplace platform for managing and booking sports courts in Colombia (soccer 5/6/7/8/11 and padel). It centralizes availability, bookings, and payments to assist clubs, replacing WhatsApp and Excel with a digital scheduling system, MercadoPago integration, and comprehensive operational management."
+      },
+      "nodify": {
+        "description": "A desktop app (Tauri v2 + Rust + React) that unifies the configuration of coding AI agents (Claude Code, Codex, OpenCode, Kilo Code, and Pi) into a single dashboard. It manages MCPs, skills, models, rules, and API keys, translating between native formats (JSON/TOML/JSONC) and synchronizing across devices via Git."
+      },
       "savoryapp": {
-        "description": "Mobile app for Mis Raices for your operational management of inventory and purchases."
+        "description": "Mobile app created for the 'Mis Raices' restaurant, focused on improving operational management of inventory and purchasing."
       },
       "lenderapp": {
-        "description": "Mobile and web app designed and developed for the client to keep track of loans, amortizations, payments...etc."
+        "description": "Mobile and web app designed and developed to help clients track loans, borrowers, amortization schedules, payments, and reminders."
       },
       "karolgportfolio": {
-        "description": "Personal portfolio for a client who is a lawyer, to showcase her information and services."
-      },
-      "futseek": {
-        "description": "Explore live and date-specific football scores, find information about different leagues, players, teams, upcoming fixtures and previous matches, all in one place to keep you up to date."
+        "description": "Personal portfolio for lawyer Karol Galindo, showcasing her professional background and the services she offers."
       },
       "movieverse": {
-        "description": "Movie-verse is a comprehensive platform designed for movie and TV lovers. Here you will find detailed information about your favorite movies and shows."
+        "description": "Movie-verse is a platform designed for movie lovers, focused on finding detailed information about your favorite movies and series."
+      },
+      "fertilizanteshj": {
+        "description": "Informational landing page for the company 'Fertilizantes hj'."
       }
     }
   },
